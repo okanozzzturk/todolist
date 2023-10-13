@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todolistV2 {
+  border: 0.5px solid lightblue;
+  padding: 15px;
+  border-radius: 10px;
+}
+.todoHeader {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: lightcoral;
+}
+.todo-input-grid,
+.todolist-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  align-items: center;
+  color: lightcoral;
+  row-gap: 7px;
+}
+.add-task-button {
+  padding: 7px 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  font-weight: bold;
+  color: white
+}
+.task-input {
+  padding: 5px 35px;
+  border: 1px solid lightblue;
+  text-align: left;
+  font-size: 12px;
+  border-radius: 5px;
+}
+::placeholder {
+  color: lightcoral;
+  opacity: 1; /* Firefox */
+}
+
+.task-date-input {
+  padding: 4px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  color: lightcoral;
+}
+
+.delete-button-js {
+  background-color: lightcoral;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 7px 0;
+}
+.todolist-grid {
+  margin-top: 20px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.todo-count {
+  margin-top: 20px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+.todo-count p {
+  margin-left: 10px;
+  color: lightcoral;
+}
+.delete-all {
+  padding: 15px;
+  margin-top: 10px;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+}
